@@ -1,0 +1,76 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34723.18
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "proyecto.fisei.vuelos.dominio", "proyecto.fisei.vuelos.dominio\proyecto.fisei.vuelos.dominio.csproj", "{0BCABF4B-54E7-490F-91AC-594EF8F63157}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain Layer", "Domain Layer", "{716105BC-1EFE-4719-89FF-0FC5F9482B28}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infraestructure Layer", "Infraestructure Layer", "{C5D13135-B1F4-43C7-98C5-38956F20C13D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Service Layer", "Service Layer", "{1D5118CC-DFFF-42D2-BCD2-B407F1929519}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "proyecto.fisei.vuelos.wcf", "proyecto.fisei.vuelos.wcf\proyecto.fisei.vuelos.wcf.csproj", "{F563E02B-C186-4159-A9AB-3980DC4E6EB7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "proyecto.fisei.vuelos.contrato", "proyecto.fisei.vuelos.contrato\proyecto.fisei.vuelos.contrato.csproj", "{71FF57FB-FE38-4F82-88DD-A313322B47FB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "proyecto.fisei.vuelos.implementacion", "proyecto.fisei.vuelos.implementacion\proyecto.fisei.vuelos.implementacion.csproj", "{66760F07-9268-4D1C-A06F-A41267E53A02}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "proyecto.fisei.vuelos.fachada", "proyecto.fisei.vuelos.fachada\proyecto.fisei.vuelos.fachada.csproj", "{73EE1D9B-47E8-427C-8185-31853315CD28}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "proyecto.fisei.vuelos.ContratoRepositorio", "proyecto.fisei.vuelos.ContratoRepositorio\proyecto.fisei.vuelos.ContratoRepositorio.csproj", "{EB68C0D1-83C1-4200-BC1D-BEE4AF821B80}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "proyecto.fisei.vuelos.sqlrepositorio", "proyecto.fisei.vuelos.sqlrepositorio\proyecto.fisei.vuelos.sqlrepositorio.csproj", "{81D6EEBF-DF3F-4168-85F4-A5EEB9213739}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0BCABF4B-54E7-490F-91AC-594EF8F63157}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0BCABF4B-54E7-490F-91AC-594EF8F63157}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0BCABF4B-54E7-490F-91AC-594EF8F63157}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0BCABF4B-54E7-490F-91AC-594EF8F63157}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F563E02B-C186-4159-A9AB-3980DC4E6EB7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F563E02B-C186-4159-A9AB-3980DC4E6EB7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F563E02B-C186-4159-A9AB-3980DC4E6EB7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F563E02B-C186-4159-A9AB-3980DC4E6EB7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{71FF57FB-FE38-4F82-88DD-A313322B47FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71FF57FB-FE38-4F82-88DD-A313322B47FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{71FF57FB-FE38-4F82-88DD-A313322B47FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71FF57FB-FE38-4F82-88DD-A313322B47FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{66760F07-9268-4D1C-A06F-A41267E53A02}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66760F07-9268-4D1C-A06F-A41267E53A02}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66760F07-9268-4D1C-A06F-A41267E53A02}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66760F07-9268-4D1C-A06F-A41267E53A02}.Release|Any CPU.Build.0 = Release|Any CPU
+		{73EE1D9B-47E8-427C-8185-31853315CD28}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73EE1D9B-47E8-427C-8185-31853315CD28}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73EE1D9B-47E8-427C-8185-31853315CD28}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73EE1D9B-47E8-427C-8185-31853315CD28}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB68C0D1-83C1-4200-BC1D-BEE4AF821B80}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB68C0D1-83C1-4200-BC1D-BEE4AF821B80}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB68C0D1-83C1-4200-BC1D-BEE4AF821B80}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB68C0D1-83C1-4200-BC1D-BEE4AF821B80}.Release|Any CPU.Build.0 = Release|Any CPU
+		{81D6EEBF-DF3F-4168-85F4-A5EEB9213739}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81D6EEBF-DF3F-4168-85F4-A5EEB9213739}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81D6EEBF-DF3F-4168-85F4-A5EEB9213739}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81D6EEBF-DF3F-4168-85F4-A5EEB9213739}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0BCABF4B-54E7-490F-91AC-594EF8F63157} = {716105BC-1EFE-4719-89FF-0FC5F9482B28}
+		{F563E02B-C186-4159-A9AB-3980DC4E6EB7} = {1D5118CC-DFFF-42D2-BCD2-B407F1929519}
+		{71FF57FB-FE38-4F82-88DD-A313322B47FB} = {1D5118CC-DFFF-42D2-BCD2-B407F1929519}
+		{66760F07-9268-4D1C-A06F-A41267E53A02} = {1D5118CC-DFFF-42D2-BCD2-B407F1929519}
+		{73EE1D9B-47E8-427C-8185-31853315CD28} = {716105BC-1EFE-4719-89FF-0FC5F9482B28}
+		{EB68C0D1-83C1-4200-BC1D-BEE4AF821B80} = {716105BC-1EFE-4719-89FF-0FC5F9482B28}
+		{81D6EEBF-DF3F-4168-85F4-A5EEB9213739} = {C5D13135-B1F4-43C7-98C5-38956F20C13D}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E28BD735-F78B-42B9-96C2-4CB94448D4BE}
+	EndGlobalSection
+EndGlobal
