@@ -23,6 +23,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "proyecto.fisei.vuelos.Contr
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "proyecto.fisei.vuelos.sqlrepositorio", "proyecto.fisei.vuelos.sqlrepositorio\proyecto.fisei.vuelos.sqlrepositorio.csproj", "{81D6EEBF-DF3F-4168-85F4-A5EEB9213739}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Utils", "Utils", "{F9133491-8B16-40DD-9BFF-E524301DD6DB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "proyecto.fisei.vuelos.utils", "proyecto.fisei.vuelos.utils\proyecto.fisei.vuelos.utils.csproj", "{42E17D7C-9B17-4453-A4C0-B21317528F83}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -57,6 +61,10 @@ Global
 		{81D6EEBF-DF3F-4168-85F4-A5EEB9213739}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{81D6EEBF-DF3F-4168-85F4-A5EEB9213739}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{81D6EEBF-DF3F-4168-85F4-A5EEB9213739}.Release|Any CPU.Build.0 = Release|Any CPU
+		{42E17D7C-9B17-4453-A4C0-B21317528F83}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{42E17D7C-9B17-4453-A4C0-B21317528F83}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{42E17D7C-9B17-4453-A4C0-B21317528F83}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{42E17D7C-9B17-4453-A4C0-B21317528F83}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -69,6 +77,7 @@ Global
 		{73EE1D9B-47E8-427C-8185-31853315CD28} = {716105BC-1EFE-4719-89FF-0FC5F9482B28}
 		{EB68C0D1-83C1-4200-BC1D-BEE4AF821B80} = {716105BC-1EFE-4719-89FF-0FC5F9482B28}
 		{81D6EEBF-DF3F-4168-85F4-A5EEB9213739} = {C5D13135-B1F4-43C7-98C5-38956F20C13D}
+		{42E17D7C-9B17-4453-A4C0-B21317528F83} = {F9133491-8B16-40DD-9BFF-E524301DD6DB}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E28BD735-F78B-42B9-96C2-4CB94448D4BE}
