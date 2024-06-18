@@ -43,6 +43,7 @@
   <ItemGroup>
     <Compile Include="IAuthRepositorio.cs" />
     <Compile Include="IUsuarioRepositorio.cs" />
+    <Compile Include="IVueloRepositorio.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

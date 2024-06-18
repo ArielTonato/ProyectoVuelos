@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Runtime.Serialization;
 
+
 namespace proyecto.fisei.vuelos.dominio
 {
     [DataContract]
@@ -13,9 +14,9 @@ namespace proyecto.fisei.vuelos.dominio
         [DataMember]
         public int VueloId { get; set; }
         [DataMember]
-        public string AeropuertoOrigenID { get; set; }
+        public string Origen { get; set; }
         [DataMember]
-        public string AeropuertoDestinoID { get; set; }
+        public string Destino { get; set; }
         [DataMember]
         public DateTime FechaSalida { get; set; }
         [DataMember]

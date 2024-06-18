@@ -44,7 +44,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="IAuthService.cs" />
+    <Compile Include="IReservaService.cs" />
     <Compile Include="IUsuarioService.cs" />
+    <Compile Include="IVueloService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

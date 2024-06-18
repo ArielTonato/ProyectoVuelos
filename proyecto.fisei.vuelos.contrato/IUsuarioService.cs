@@ -20,9 +20,5 @@ namespace proyecto.fisei.vuelos.contrato
         [WebInvoke(RequestFormat = WebMessageFormat.Json, ResponseFormat = WebMessageFormat.Json, UriTemplate = "/RegistrarUsuario", Method = "POST", BodyStyle = WebMessageBodyStyle.Bare)]
         Usuario RegistrarUsuario(Usuario usuario);
 
-        //[OperationContract]
-        //[WebInvoke(RequestFormat = WebMessageFormat.Json, ResponseFormat = WebMessageFormat.Json, UriTemplate = "/IniciarSesion", Method = "POST", BodyStyle = WebMessageBodyStyle.Bare)]
-        //Usuario IniciarSesion(string correoElectronico, string claveHash);
-
     }
 }
