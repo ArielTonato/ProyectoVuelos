@@ -62,6 +62,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="AuthService.svc" />
+    <Content Include="ReservaService.svc" />
     <Content Include="UsuarioService.svc" />
     <Content Include="VueloService.svc" />
     <Content Include="Web.config" />

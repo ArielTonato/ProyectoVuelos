@@ -11,7 +11,7 @@ namespace proyecto.fisei.vuelos.fachada
 {
     public class AuthFachada:IDisposable
     {
-        public bool IniciarSesion(Usuario usuario)
+        public Usuario IniciarSesion(Usuario usuario)
         {
             IAuthRepositorio authRepositorio = new AuthRepositorio();
             return authRepositorio.IniciarSesion(usuario);

@@ -14,6 +14,6 @@ namespace proyecto.fisei.vuelos.contrato
     {
         [OperationContract]
         [WebInvoke(RequestFormat = WebMessageFormat.Json, ResponseFormat = WebMessageFormat.Json, UriTemplate = "/IniciarSesion", Method = "POST", BodyStyle = WebMessageBodyStyle.Bare)]
-        bool IniciarSesion(Usuario usuario);
+        Usuario IniciarSesion(Usuario usuario);
     }
 }

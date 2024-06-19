@@ -16,7 +16,7 @@ namespace proyecto.fisei.vuelos.dominio
         [DataMember]
         public string UsuarioID { get;}
         [DataMember]
-        public int VueloID { get; set; }
+        public string VueloID { get; set; }
         [DataMember]
         public DateTime FechaReserva { get; set; }
         [DataMember]

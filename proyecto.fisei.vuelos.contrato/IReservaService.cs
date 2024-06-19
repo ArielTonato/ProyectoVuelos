@@ -13,8 +13,8 @@ namespace proyecto.fisei.vuelos.contrato
     public interface IReservaService
     {
         [OperationContract]
-        [WebInvoke(RequestFormat = WebMessageFormat.Json, ResponseFormat = WebMessageFormat.Json, UriTemplate = "/ListarReservas", Method = "GET", BodyStyle = WebMessageBodyStyle.Bare)]
-        IEnumerable<Reserva> ListarReservas();
+        [WebInvoke(RequestFormat = WebMessageFormat.Json, ResponseFormat = WebMessageFormat.Json, UriTemplate = "/ListarReservas", Method = "POST", BodyStyle = WebMessageBodyStyle.Bare)]
+        IEnumerable<Reserva> ListarReservas(Usuario usuario);
 
         [OperationContract]
         [WebInvoke(RequestFormat = WebMessageFormat.Json, ResponseFormat = WebMessageFormat.Json, UriTemplate = "/RegistrarReserva", Method = "POST", BodyStyle = WebMessageBodyStyle.Bare)]

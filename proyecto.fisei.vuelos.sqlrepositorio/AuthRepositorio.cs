@@ -15,7 +15,7 @@ namespace proyecto.fisei.vuelos.sqlrepositorio
 {
     public class AuthRepositorio : IAuthRepositorio
     {
-        public bool IniciarSesion(Usuario usuario)
+        public Usuario IniciarSesion(Usuario usuario)
         {
             try
             {
@@ -26,14 +26,21 @@ namespace proyecto.fisei.vuelos.sqlrepositorio
                     parametros.Add("CorreoElectronico", usuario.CorreoElectronico);
                     parametros.Add("ClaveHash", usuario.ClaveHash);
 
-                    bool resultado = conexion.ExecuteScalar<bool>("dbo.iniciarSesion", parametros, commandType: CommandType.StoredProcedure);
-            
+                    var resultado = conexion.Query<Usuario>("dbo.iniciarSesion", parametros, commandType: CommandType.StoredProcedure).FirstOrDefault();
+
+                    // Verificar si no se encontró ningún usuario y devolver null explícitamente
+                    if (resultado == null)
+                    {
+                        return null;
+                    }
+
                     return resultado;
                 }
             }
             catch (Exception ex)
             {
-                throw ex;
+                // Manejar la excepción según sea necesario
+                throw new Exception("Error al iniciar sesión", ex);
             }
         }
     }

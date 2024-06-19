@@ -11,7 +11,7 @@ namespace proyecto.fisei.vuelos.implementacion
 {
     public class AuthService : IAuthService
     {
-        bool IAuthService.IniciarSesion(Usuario usuario)
+        Usuario IAuthService.IniciarSesion(Usuario usuario)
         {
             using (AuthFachada authFachada = new AuthFachada())
             {

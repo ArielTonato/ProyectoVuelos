@@ -7,8 +7,10 @@ using System.Threading.Tasks;
 
 namespace proyecto.fisei.vuelos.ContratoRepositorio
 {
-    public interface IAuthRepositorio
+    public interface IReservaRepositorio
     {
-        Usuario IniciarSesion(Usuario usuario);
+        IEnumerable<Reserva> ListarReservas(Usuario usuario);
+        Reserva RegistrarReserva(Reserva reserva);
+        Reserva ActualizarReserva(Reserva reserva);
     }
 }
