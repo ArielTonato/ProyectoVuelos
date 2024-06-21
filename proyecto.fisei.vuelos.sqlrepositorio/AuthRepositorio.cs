@@ -24,15 +24,9 @@ namespace proyecto.fisei.vuelos.sqlrepositorio
                     conexion.Open();
                     var parametros = new DynamicParameters();
                     parametros.Add("CorreoElectronico", usuario.CorreoElectronico);
-                    parametros.Add("ClaveHash", usuario.ClaveHash);
+                    parametros.Add("ClaveHash", Utils.HashearClave(usuario.ClaveHash));
 
                     var resultado = conexion.Query<Usuario>("dbo.iniciarSesion", parametros, commandType: CommandType.StoredProcedure).FirstOrDefault();
-
-                    // Verificar si no se encontró ningún usuario y devolver null explícitamente
-                    if (resultado == null)
-                    {
-                        return null;
-                    }
 
                     return resultado;
                 }

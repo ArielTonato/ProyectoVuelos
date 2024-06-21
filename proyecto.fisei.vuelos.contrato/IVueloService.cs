@@ -17,7 +17,7 @@ namespace proyecto.fisei.vuelos.contrato
         IEnumerable<Vuelo> ListarVuelos();
 
         [OperationContract]
-        [WebInvoke(RequestFormat = WebMessageFormat.Json, ResponseFormat = WebMessageFormat.Json, UriTemplate = "/RegistrarVuelo", Method = "POST", BodyStyle = WebMessageBodyStyle.Bare)]
+        [WebInvoke(RequestFormat = WebMessageFormat.Json, ResponseFormat = WebMessageFormat.Json, UriTemplate = "/BuscarVuelos", Method = "POST", BodyStyle = WebMessageBodyStyle.Bare)]
         IEnumerable<Vuelo> BuscarVuelo(Vuelo vuelo);
     }
 }
