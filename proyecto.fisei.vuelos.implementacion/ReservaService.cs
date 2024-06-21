@@ -6,10 +6,13 @@ using System.Threading.Tasks;
 using proyecto.fisei.vuelos.dominio;
 using proyecto.fisei.vuelos.contrato;
 using proyecto.fisei.vuelos.fachada;
+using System.ServiceModel;
 
 
 namespace proyecto.fisei.vuelos.implementacion
 {
+    [ServiceBehavior(IncludeExceptionDetailInFaults = true)]
+    [CorsBehavior]
     public class ReservaService : IReservaService
     {
         IEnumerable<Reserva> IReservaService.ListarReservas(Usuario usuario)
