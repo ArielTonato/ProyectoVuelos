@@ -11,8 +11,6 @@ using System.ServiceModel;
 
 namespace proyecto.fisei.vuelos.implementacion
 {
-    [ServiceBehavior(IncludeExceptionDetailInFaults = true)]
-    [CorsBehavior]
     public class ReservaService : IReservaService
     {
         IEnumerable<Reserva> IReservaService.ListarReservas(Usuario usuario)

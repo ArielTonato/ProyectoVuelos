@@ -10,8 +10,6 @@ using proyecto.fisei.vuelos.fachada;
 
 namespace proyecto.fisei.vuelos.implementacion
 {
-    [ServiceBehavior(IncludeExceptionDetailInFaults = true)]
-    [CorsBehavior]
     public class AuthService : IAuthService
     {
         Usuario IAuthService.IniciarSesion(Usuario usuario)

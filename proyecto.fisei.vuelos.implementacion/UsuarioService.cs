@@ -10,8 +10,6 @@ using System.ServiceModel;
 
 namespace proyecto.fisei.vuelos.implementacion
 {
-    [ServiceBehavior(IncludeExceptionDetailInFaults = true)]
-    [CorsBehavior]
     public class UsuarioService : IUsuarioService
     {
         IEnumerable<Usuario> IUsuarioService.ListarUsuarios()
